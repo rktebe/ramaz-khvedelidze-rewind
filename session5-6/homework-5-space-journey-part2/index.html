@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal X-Omega | Intergalactic Spaceport</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="warp-overlay">
+            <div>
+                <h1>TERMINAL X-OMEGA</h1>
+                <p>GATEWAY TO THE OUTER RIM SECTOR</p>
+                <div class="status-bar">
+                    <span>SYSTEM: ONLINE</span>
+                    <span class="blink">TRAFFIC: HEAVY</span>
+                    <span>TEMP: -270°C</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="destinations">
+            <h2>POPULAR FLIGHT PATHS</h2>
+            <div class="grid-wrapper">
+                <article class="Habitable">
+                    <figure>
+                        <img src="assets/dest_kepler.jpeg" alt="Kepler-186f">
+                        <figcaption>
+                            <h3>Kepler-186f</h3>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="Industrial">
+                    <figure>
+                        <img src="assets/dest_titan.jpeg" alt="Titan Station">
+                        <figcaption>
+                            <h3>Titan Station</h3>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="Luxury">
+                    <figure>
+                        <img src="assets/dest_nebula.jpeg" alt="Nebula Resort">
+                        <figcaption>
+                            <h3>Nebula Resort</h3>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="Extreme">
+                    <figure>
+                        <img src="assets/dest_blackhole.jpeg" alt="Event Horizon">
+                        <figcaption>
+                            <h3>Event Horizon</h3>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <section id="schedule">
+            <div class="hologram-overlay">
+                <h2>LIVE DEPARTURE BOARD</h2>
+                <table>
+                    <caption>REAL-TIME WARP GATE STATUS</caption>
+                    <thead>
+                        <tr>
+                            <th>Flight</th>
+                            <th>Destination</th>
+                            <th>Gate</th>
+                            <th>Time</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10e113</td>
+                            <td>Kepler-186f</td>
+                            <td>B6</td>
+                            <td>17:00</td>
+                            <td class="status-go">Boarding</td>
+                        </tr>
+                        <tr>
+                            <td>10e143</td>
+                            <td>Titan Station</td>
+                            <td>A4</td>
+                            <td>19:30</td>
+                            <td class="status-go">On Time</td>
+                        </tr>
+                        <tr>
+                            <td>10e202</td>
+                            <td>Nebula Resort</td>
+                            <td>B4</td>
+                            <td>20:30</td>
+                            <td class="status-wait">Fueling</td>
+                        </tr>
+                        <tr>
+                            <td>10e207</td>
+                            <td>Event Horizon</td>
+                            <td>C2</td>
+                            <td>18:00</td>
+                            <td class="status-delay">Delayed</td>
+                        </tr>
+                        <tr>
+                            <td>10e234</td>
+                            <td>Nebula</td>
+                            <td>C8</td>
+                            <td>22:00</td>
+                            <td class="status-stop">Cancelled</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5">SCANNING FOR INCOMING VESSELS...</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <section id="booking">
+            <div class="kiosk-interface">
+                <h2>SELF-SERVICE TERMINAL</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>IDENTITY VERIFICATION</legend>
+                        <input type="text" name="Full Designation" id="Full Designation" required>
+                        <label for="Full Designation">Full Designation</label>
+                        <input type="text" name="ID Code" id="ID Code" required>
+                        <label for="ID Code">ID Code</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>FLIGHT PARAMETERS</legend>
+                        <select name="Cabin Class" id="Cabin Class" required>
+                            <option value=" Economy (Stasis Pod)"> Economy (Stasis Pod)</option>
+                            <option value=" Business (Quarters)"> Business (Quarters)</option>
+                            <option value="First (Zero-G Suite)">First (Zero-G Suite)</option>
+                        </select>
+                        <button type="submit">AUTHORIZE CREDIT TRANSFER</button>
+                        <button type="reset">RESET</button>
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>TERMINAL X-OMEGA // OPERATED BY GALACTIC FEDERATION // SAFETY NOT GUARANTEED</p>
+    </footer>
+</body>
+</html>

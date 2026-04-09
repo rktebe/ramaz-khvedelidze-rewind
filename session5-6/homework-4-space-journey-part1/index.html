@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovian Drift SOS</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <iframe id="bg-frame" src="styles/effect.html"></iframe>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Pilot Credentials</legend>
+            <label for="pilot-name"> Pilot Name:
+                <input type="text" id="pilot-name" name="pilot_name" required placeholder="Enter name">
+            </label>
+            <label for="access-code"> Access Code:
+                <input type="password" id="access-code" name="access_code" required placeholder="Enter access code">
+            </label>
+            <label for="command-email">Command Email:
+                <input type="email" id="command-email" name="command_email" required placeholder="Enter command email">
+            </label>
+            <button type="submit">Enter Pilot Credentials</button>
+            <button type="reset">RESET SYSTEM</button>
+        </fieldset>
+        <fieldset>
+            <legend>Vessel Diagnostics</legend>
+            <label for="hull-damage">Hull Damage (%):
+                <input type="number" id="hull-damage" name="hull_damage" required placeholder="Enter hull damage percentage">
+            </label>
+            <label for="emergency-level">Emergency Level:
+                <select id="emergency-level" name="emergency_level" required>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </label>
+            <button type="submit">Vessel Diagnostic</button>
+            <button type="reset">RESET SYSTEM</button>
+        </fieldset>
+        <fieldset>
+            <legend>Mission Log & Evidence</legend>
+            <label for="sos-message">SOS Message:</label>
+            <textarea id="sos-message" name="sos_message" required rows="3"></textarea>
+            <button type="submit">Submit Mission Log & Evidence</button>
+            <button type="reset">RESET SYSTEM</button>
+        </fieldset>
+        <div>
+            <input type="checkbox" id="quarantine" name="quarantine" required>
+            <label for="quarantine">I agree to quarantine protocols.</label>
+
+        </div>
+    </form>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
