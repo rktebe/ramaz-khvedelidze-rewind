@@ -70,6 +70,9 @@
 2. დაარქვით ფაილს `preview.png`.
 3. ატვირთეთ ეს სურათი თქვენს GitHub რეპოზიტორიაში.
 4. ჩასვით სურათი `README.md` ფაილში.
+![Design Preview](./assets/preview1.png)
+![Design Preview](./assets/preview2.png)
+![Design Preview](./assets/preview2(with-hover).png)
 
 ## Acceptance Criteria
 
