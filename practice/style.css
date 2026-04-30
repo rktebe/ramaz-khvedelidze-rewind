@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    align-items: stretch;
+    background-color: aqua;
+    width: 1000px;
+    height: 400px;
+    gap: 10px;
+}
+.child{
+    background-color: red;
+    width: 90px;
+    overflow-y: scroll;
+}
