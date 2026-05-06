@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.top-header {
+    height: 13rem;
+    background-color: #FF6B1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.medium {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.head-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 29.5rem;
+    height: 5.1rem;
+    row-gap: 1.2rem;
+    column-gap: 0.5rem;
+}
+
+.bottom-header {
+    height: 7.1rem;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+}
+
+.menu-container {
+    margin-left: 1.3rem;
+    background-color: #FF6B1A;
+    width: 10.3rem;
+    height: 3.7rem;
+    border-radius: 0.8rem;
+    display: flex;
+
+}
+
+.menu-icon {
+    margin-left: 1.3rem;
+    margin-top: 1.1rem;
+    height: 1.4rem;
+    width: 1.7rem;
+}
+
+.menu {
+    margin-top: 0.7rem;
+    font-size: 1.9rem;
+    margin-left: 0.5rem;
+}
+
+.hero-section {
+    height: 37.7rem;
+    background-color: #2A2A2AE5;
+    position: relative;
+    height: 37.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    position: absolute;
+    height: 12.543rem;
+    width: 11.474rem;
+    opacity: 0.3;
+}
+
+.hero-text {
+    height: 10.4rem;
+    width: 32.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.6rem;
+}
+
+.card-section {
+    height: 154.9rem;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.9rem;
+    gap: 3rem;
+}
+
+.card {
+    height: 20rem;
+    width: 32.4rem;
+    box-shadow: 0px 2px 8px 0px #0000001A;
+    border-radius: 1.2rem;
+    border-top: 4px solid #FF6B1A;
+    position: relative;
+
+}
+
+.logo {
+    position: absolute;
+    height: 2.4rem;
+    width: 2.4rem;
+    display: inline-block;
+}
+
+.logo1 {
+    margin-top: 2.6rem;
+    margin-left: 2.4rem;
+}
+
+.card-title {
+    position: absolute;
+    display: inline-block;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.title1 {
+    width: 11.7rem;
+    height: 2.9rem;
+    margin-top: 2.3rem;
+    margin-left: 5.6rem;
+}
+
+.card-desc {
+    color: #666666;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 1.6rem;
+}
+
+.desc1 {
+    width: 25.5rem;
+    height: 11.4rem;
+    margin-top: 6.2rem;
+    margin-left: 2.4rem;
+    margin-right: 4.5rem;
+}
+
+.logo2 {
+    height: 2.8rem;
+    width: 2.8rem;
+    margin-top: 3.8rem;
+    margin-left: 2rem;
+}
+
+.title2 {
+    width: 8.6rem;
+    height: 2.9rem;
+    margin-top: 3.7rem;
+    margin-left: 5.6rem;
+}
+
+.desc2 {
+    width: 268;
+    height: 76;
+    margin-top: 7.6rem;
+    margin-left: 2.4rem;
+    margin-right: 3.2rem;
+}
+
+.logo3 {
+    width: 1.83rem;
+    height: 2.34rem;
+    margin-top: 2.6rem;
+    margin-left: 2.4rem;
+}
+
+.title3 {
+    width: 15.9rem;
+    height: 2.9rem;
+    margin-top: 2.3rem;
+    margin-left: 5.1rem;
+}
+
+.desc3 {
+    width: 25rem;
+    height: 7.6rem;
+    margin-top: 6.2rem;
+    margin-left: 2.4rem;
+    margin-right: 5rem;
+}
+
+.logo4 {
+    margin-top: 2.6rem;
+    margin-left: 2.4rem;
+}
+
+.title4 {
+    width: 16.9rem;
+    height: 2.9rem;
+    margin-top: 2.3rem;
+    margin-left: 5.6rem;
+}
+
+.desc4 {
+    width: 27.4rem;
+    height: 7.6rem;
+    margin-top: 6.2rem;
+    margin-left: 2.4rem;
+    margin-right: 2.6rem;
+}
+
+.logo5 {
+    margin-top: 2.6rem;
+    margin-left: 2.4rem;
+}
+
+.title5 {
+    width: 12rem;
+    height: 2.9rem;
+    margin-top: 2.3rem;
+    margin-left: 5.6rem;
+}
+
+.desc5 {
+    width: 25.5rem;
+    height: 7.6rem;
+    margin-top: 6.2rem;
+    margin-left: 2.4rem;
+    margin-right: 4.5rem;
+}
+
+.logo6 {
+    margin-top: 2.6rem;
+    margin-left: 2.4rem;
+}
+
+.title6 {
+    height: 2.9rem;
+    ;
+    width: 16.2rem;
+    margin-top: 2.3rem;
+    margin-left: 5.6rem;
+}
+
+.desc6 {
+    height: 7.6rem;
+    width: 27.5rem;
+    margin-left: 2.4rem;
+    margin-top: 6.2rem;
+    margin-right: 2.5rem;
+}
+
+footer {
+    height: 9rem;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    color: #FFFFFF;
+}

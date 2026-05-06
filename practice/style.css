@@ -1,13 +1,18 @@
-.main{
-    display: flex;
-    align-items: stretch;
-    background-color: aqua;
-    width: 1000px;
-    height: 400px;
-    gap: 10px;
-}
-.child{
+.container1{
+    width: 768px;
+    height: 500px;
     background-color: red;
-    width: 90px;
-    overflow-y: scroll;
+}
+.container2{
+    width: 991px;
+    height: 500px;
+    background-color: green;
+}
+.container3{
+    width: 1200px;
+    height: 500px;
+    background-color: blue
+}
+*:hover{
+    background-color: yellow;
 }
